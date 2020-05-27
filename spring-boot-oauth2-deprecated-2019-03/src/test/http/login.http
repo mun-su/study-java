@@ -1,0 +1,4 @@
+POST http://localhost:8080/oauth/token?grant_type=password&username=munsu&password=pass
+# Authorization is base64 encode from clientId:clientSecret (munsu:munsu-password)
+Authorization: Basic bXVuc3U6bXVuc3UtcGFzc3dvcmQ=
+Content-Type: application/x-www-form-urlencoded
