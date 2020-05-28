@@ -38,7 +38,7 @@ public class EmbeddedTomcatApplication {
       }
     };
 
-    String servletName = "helloABC";
+    String servletName = "helloTomcat";
     tomcat.addServlet("/", servletName, servlet);
     context.addServletMappingDecoded("/hello", servletName);
 
